@@ -41,7 +41,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Chapter3\AbstractClasses.cs" />
+    <Compile Include="Chapter3\BookStructExercise.cs" />
+    <Compile Include="Chapter3\DataStructures.cs" />
+    <Compile Include="Chapter3\DataTypes.cs" />
+    <Compile Include="Chapter3\EnumsExercises.cs" />
+    <Compile Include="Chapter3\ExtendedMethods.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
