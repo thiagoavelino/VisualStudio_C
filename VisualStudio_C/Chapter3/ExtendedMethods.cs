@@ -13,7 +13,7 @@ namespace VisualStudio_C.Chapter3 {
         }
     }
     class ExtendedMethods {
-        static void Main(string[] args) {
+        static void MainExtendedMethods(string[] args) {
             var myNum = 3;
             myNum.square();
             Console.WriteLine(myNum + 3);
