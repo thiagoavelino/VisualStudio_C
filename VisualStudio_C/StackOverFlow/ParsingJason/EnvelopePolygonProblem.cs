@@ -27,7 +27,7 @@ namespace VisualStudio_C.StackOverFlow.ParsingJason {
             throw new NotImplementedException();
         }
         public bool ShouldSerializeEnvelope() {
-            return false;
+            return !(this is AxisAlignedRectangle);
         }
 
     }
