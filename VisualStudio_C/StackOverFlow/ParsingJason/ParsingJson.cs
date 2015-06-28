@@ -9,7 +9,7 @@ using VisualStudio_C.StackOverFlow;
 
 namespace VisualStudio_C.StackOverFlow.ParsingJason {
     public class ParsingJson {
-        static void Main(string[] args) {
+        static void MainParsingJson(string[] args) {
             string json = @"{
               'page' : 10,
               'errorMessages' : ['Error Message 01','Error Message 02' ],
