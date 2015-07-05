@@ -4,8 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace VisualStudio_C.Generics {
-    public class CircularBuffer<T> {
+namespace VisualStudio_C.GenericInterfaces {
+    public class CircularBuffer<T> : IBuffer<T> {
         private T[] _buffer;
         private int _start;
         private int _end;

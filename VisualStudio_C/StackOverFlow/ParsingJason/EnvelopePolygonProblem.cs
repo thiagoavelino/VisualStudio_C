@@ -40,7 +40,7 @@ namespace VisualStudio_C.StackOverFlow.ParsingJason {
 
     public class EnvelopePolygonProblem {
 
-        static void Main(string[] args) {
+        static void MainEnvelopePolygonProblem(string[] args) {
             var listPoints = new List<Point> { new Point { x = 1, y = 2 }, 
                                                new Point { x = 1, y = 3 } };
             var envelope = new AxisAlignedRectangle { Left = 1, Vertices = listPoints };

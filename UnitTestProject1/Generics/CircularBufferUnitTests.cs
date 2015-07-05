@@ -7,7 +7,7 @@ namespace UnitTestProject1 {
     public class UnitTest1 {
         [TestMethod]
         public void Owerwrites_When_More_Than_Capacity() {
-            var buffer = new CircularBuffer(capacity: 3);
+            var buffer = new CircularBuffer<double>(capacity: 3);
             var values = new[] { 1.0, 2.0, 3.0, 4.0, 5.0 };
             foreach(var value in values) {
                 buffer.Write(value);
