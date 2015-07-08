@@ -13,7 +13,7 @@ namespace VisualStudio_C.StackOverFlow {
         public string LastName { get; set; }
     }
     class XMLConversion {
-        static void Main(string[] args) {
+        static void MainXMLConversion(string[] args) {
             var stringXml = @"
             <Profiles>
                 <Profile>
