@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace VisualStudio_C.StackOverFlow.NHibernate {
     public class Example {
-        static void Main(string[] args) {
+        static void MainNHIbernates(string[] args) {
             using(ISession session = NHibernateHelper.OpenSession()) {
                 var students = session.CreateCriteria<Student>()
                                  .SetMaxResults(30)

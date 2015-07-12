@@ -73,6 +73,7 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -90,6 +91,13 @@
     <Compile Include="Book Chapter4\InteropAndPInvoke.cs" />
     <Compile Include="Book Chapter4\StringExperiments.cs" />
     <Compile Include="Book Chapter4\ValueTypes.cs" />
+    <Compile Include="Book Chapter5\Car.cs" />
+    <Compile Include="Book Chapter5\Hooptie.cs" />
+    <Compile Include="Book Chapter5\Hooptie2.cs" />
+    <Compile Include="Book Chapter5\ICar.cs" />
+    <Compile Include="Book Chapter5\M3.cs" />
+    <Compile Include="Book Chapter5\M4.cs" />
+    <Compile Include="Book Chapter5\Program.cs" />
     <Compile Include="GenericInterfaces\Buffer.cs" />
     <Compile Include="GenericInterfaces\CircularBuffer.cs" />
     <Compile Include="GenericInterfaces\IBuffer.cs" />
