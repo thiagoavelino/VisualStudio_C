@@ -32,6 +32,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Iesi.Collections">
+      <HintPath>..\packages\Iesi.Collections.4.0.0.4000\lib\net40\Iesi.Collections.dll</HintPath>
+    </Reference>
     <Reference Include="IronPython, Version=2.7.5.0, Culture=neutral, PublicKeyToken=7f709c5b713576e1, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\..\..\..\Program Files\IronPython 2.7\IronPython.dll</HintPath>
@@ -52,7 +55,22 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\..\..\..\Program Files\IronPython 2.7\Microsoft.Scripting.Metadata.dll</HintPath>
     </Reference>
+    <Reference Include="MySql.Data">
+      <HintPath>bin\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data.Entity.EF5">
+      <HintPath>bin\MySql.Data.Entity.EF5.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data.Entity.EF6">
+      <HintPath>bin\MySql.Data.Entity.EF6.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Web">
+      <HintPath>bin\MySql.Web.dll</HintPath>
+    </Reference>
     <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL" />
+    <Reference Include="NHibernate">
+      <HintPath>..\packages\NHibernate.4.0.3.4000\lib\net40\NHibernate.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -85,6 +103,9 @@
     <Compile Include="Generics\Queue.cs" />
     <Compile Include="Generics\Stack.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StackOverFlow\NHibernate\Example.cs" />
+    <Compile Include="StackOverFlow\NHibernate\NHibernateHelper.cs" />
+    <Compile Include="StackOverFlow\NHibernate\Student.cs" />
     <Compile Include="StackOverFlow\ParsingJason\EnvelopePolygonProblem.cs" />
     <Compile Include="StackOverFlow\ParsingJason\Property.cs" />
     <Compile Include="StackOverFlow\ParsingJason\PropertyList.cs" />
@@ -95,10 +116,16 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="StackOverFlow\NHibernate\Mappings\Student.hbm.xml" />
+    <Content Include="hibernate.cfg.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="StackOverFlow\XMLFile1.xml" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

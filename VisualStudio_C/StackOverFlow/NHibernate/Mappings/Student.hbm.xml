@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   assembly="VisualStudio_C"
+                   namespace="VisualStudio_C.StackOverFlow.NHibernate">
+  <class name="Student">
+    <id name="Id">
+    </id>
+    <property name="Name" />
+  </class>
+</hibernate-mapping>
