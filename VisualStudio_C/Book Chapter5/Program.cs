@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace VisualStudio_C.Book_Chapter5 {
     class Program {
-        static void Main(string[] args) {
+        static void MainProgram(string[] args) {
             { 
                 ICar[] cars = {
                                  new M3{Color = Color.Silver},
