@@ -92,6 +92,7 @@
     <Compile Include="Book Chapter4\StringExperiments.cs" />
     <Compile Include="Book Chapter4\ValueTypes.cs" />
     <Compile Include="Book Chapter5\Car.cs" />
+    <Compile Include="Book Chapter5\CommonInterfacesImplementing.cs" />
     <Compile Include="Book Chapter5\DisposableCourse\DatabaseState.cs" />
     <Compile Include="Book Chapter5\DisposableCourse\Program.cs" />
     <Compile Include="Book Chapter5\Hooptie.cs" />

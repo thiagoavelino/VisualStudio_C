@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace VisualStudio_C.Book_Chapter5.DisposableCourse {
     class Program {
-        static void Main(string[] args) {
+        static void MainProgram(string[] args) {
             { 
                 using(var state = new DatabaseState()) {
                     Console.WriteLine(state.GetDate());
