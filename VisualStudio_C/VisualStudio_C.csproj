@@ -21,6 +21,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -101,6 +102,10 @@
     <Compile Include="Book Chapter5\M3.cs" />
     <Compile Include="Book Chapter5\M4.cs" />
     <Compile Include="Book Chapter5\Program.cs" />
+    <Compile Include="Book Chapter6\Customer.cs" />
+    <Compile Include="Book Chapter6\DelegateExample.cs" />
+    <Compile Include="Book Chapter6\ProcessData.cs" />
+    <Compile Include="Book Chapter6\Worker.cs" />
     <Compile Include="GenericInterfaces\Buffer.cs" />
     <Compile Include="GenericInterfaces\CircularBuffer.cs" />
     <Compile Include="GenericInterfaces\IBuffer.cs" />

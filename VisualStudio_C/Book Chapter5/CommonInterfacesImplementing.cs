@@ -41,7 +41,7 @@ namespace VisualStudio_C.Book_Chapter5 {
     }
 
     class CommonInterfacesImplementing {
-        static void Main(string[] args) {
+        static void MainCommonInterfaces(string[] args) {
 
             //IComparable
             Console.WriteLine();
