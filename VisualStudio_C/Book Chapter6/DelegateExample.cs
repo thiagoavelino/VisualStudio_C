@@ -16,7 +16,10 @@ namespace VisualStudio_C.Book_Chapter6 {
     public delegate int BizRulesDelegate(int x, int y);
 
     public class DelegateExample {
-        static void Main(string[] args) {
+        static void MainDelegate(string[] args) {
+            {
+                Func<float, float> result = (float x) => x * x;
+            }
             {
                 var custs = new List<Customer>{
                     new Customer{City = "Phoenix", FirstName="John", LastName = "Doe", ID =1},

@@ -75,6 +75,7 @@
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -106,6 +107,13 @@
     <Compile Include="Book Chapter6\DelegateExample.cs" />
     <Compile Include="Book Chapter6\ProcessData.cs" />
     <Compile Include="Book Chapter6\Worker.cs" />
+    <Compile Include="Book Chapter7\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Book Chapter7\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Book Chapter7\Program.cs" />
     <Compile Include="GenericInterfaces\Buffer.cs" />
     <Compile Include="GenericInterfaces\CircularBuffer.cs" />
     <Compile Include="GenericInterfaces\IBuffer.cs" />
@@ -135,6 +143,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Book Chapter7\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="StackOverFlow\NHibernate\Mappings\Student.hbm.xml" />
     <Content Include="hibernate.cfg.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
