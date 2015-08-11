@@ -10,7 +10,7 @@ namespace VisualStudio_C.Book_Chapter7 {
     class Program {
         static volatile bool cancel = false;
 
-        static void Main(string[] args) {
+        static void MainChapter7(string[] args) {
             
                 Console.WriteLine("{0} Main called", Thread.CurrentThread.ManagedThreadId);
                 for(int i = 0; i < 100; i++) {
