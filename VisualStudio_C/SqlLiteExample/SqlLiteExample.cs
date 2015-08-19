@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace VisualStudio_C.SqlLiteExample {
     public class SqlLiteExample {
-        public static void Main(string[] args) {
+        public static void MainSqlLite(string[] args) {
 
             //string path = "MyTestsFile2.txt";
 
