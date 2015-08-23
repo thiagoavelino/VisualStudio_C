@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace VisualStudio_C.Book_Chapter7 {
     class SimpleThreadComparing {
-        static void Main() {
+        static void MainThreadsComparing() {
             Stopwatch sw = Stopwatch.StartNew();
             RunSequential();
             Console.WriteLine("Sequential - We're done in {0}ms", sw.ElapsedMilliseconds);

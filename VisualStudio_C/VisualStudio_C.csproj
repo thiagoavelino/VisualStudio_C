@@ -79,6 +79,10 @@
     <Reference Include="NHibernate">
       <HintPath>..\packages\NHibernate.4.0.3.4000\lib\net40\NHibernate.dll</HintPath>
     </Reference>
+    <Reference Include="RestSharp, Version=105.2.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\RestSharp.105.2.2\lib\net45\RestSharp.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
@@ -98,6 +102,10 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
+    <Reference Include="Twilio.Api, Version=3.4.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Twilio.4.0.5\lib\3.5\Twilio.Api.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Book Chapter3\AbstractClasses.cs" />
@@ -158,6 +166,7 @@
     <Compile Include="StackOverFlow\ParsingJason\PropertyResultConverter.cs" />
     <Compile Include="StackOverFlow\ParsingJason\ParsingJson.cs" />
     <Compile Include="StackOverFlow\XMLConversion.cs" />
+    <Compile Include="Twilio\SMSTextMsg.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
