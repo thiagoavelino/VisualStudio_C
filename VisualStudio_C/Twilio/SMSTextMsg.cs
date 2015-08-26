@@ -7,7 +7,7 @@ using Twilio;
 
 namespace VisualStudio_C.Twilio {
     class SMSTextMsg {
-        static void Main() {
+        static void MainSMSTextMessage() {
             // Find your Account Sid and Auth Token at twilio.com/user/account
             string AccountSid = "ACb632a892c1664b3269e31d1f083cf5e0";
             string AuthToken = "AuthToken";

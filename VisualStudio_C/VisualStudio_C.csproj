@@ -132,6 +132,7 @@
     <Compile Include="Book Chapter6\DelegateExample.cs" />
     <Compile Include="Book Chapter6\ProcessData.cs" />
     <Compile Include="Book Chapter6\Worker.cs" />
+    <Compile Include="Book Chapter7\ArrayProcessor.cs" />
     <Compile Include="Book Chapter7\FileHandler.cs" />
     <Compile Include="Book Chapter7\Form1.cs">
       <SubType>Form</SubType>
@@ -140,8 +141,11 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="Book Chapter7\Program.cs" />
+    <None Include="Book Chapter7\ProgramProcessArray.cs" />
+    <Compile Include="Book Chapter7\ProgramProcessArray2.cs" />
     <Compile Include="Book Chapter7\ReadFile.cs" />
     <Compile Include="Book Chapter7\SimpleThreadComparing.cs" />
+    <Compile Include="Book Chapter7\ThreadsSharingResource.cs" />
     <Compile Include="GenericInterfaces\Buffer.cs" />
     <Compile Include="GenericInterfaces\CircularBuffer.cs" />
     <Compile Include="GenericInterfaces\IBuffer.cs" />
