@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace VisualStudio_C.Book_Chapter7 {
     class ProgramProcessArray2 {
-        public static void Main() {
+        public static void MainProgramProcessArray() {
             int coreCount = Environment.ProcessorCount;
             Console.WriteLine("Process/core count = {0}", coreCount);
 

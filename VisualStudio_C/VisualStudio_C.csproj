@@ -194,8 +194,10 @@
     <Compile Include="Book Chapter7\ProgramProcessArray2.cs" />
     <Compile Include="Book Chapter7\ReadFile.cs" />
     <Compile Include="Book Chapter7\SimpleThreadComparing.cs" />
+    <Compile Include="Book Chapter7\ThreadPoolExampleSeningEmails.cs" />
     <Compile Include="Book Chapter7\ThreadsSharingResource.cs" />
     <Compile Include="Book Chapter7\Widget2D.cs" />
+    <Compile Include="Book Chapter8\InvokeMethods.cs" />
     <Compile Include="GenericInterfaces\Buffer.cs" />
     <Compile Include="GenericInterfaces\CircularBuffer.cs" />
     <Compile Include="GenericInterfaces\IBuffer.cs" />
