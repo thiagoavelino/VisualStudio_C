@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace VisualStudio_C.Book_Chapter8 {
     class CodeDomExample {
-        static void Main() {
+        static void MainCodeDomExample() {
             CodeNamespace codeNamespace = new CodeNamespace("Reflection");
             codeNamespace.Imports.Add(new CodeNamespaceImport("System"));
             codeNamespace.Imports.Add(new CodeNamespaceImport("System.Collections.Generic"));
