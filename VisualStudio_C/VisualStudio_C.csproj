@@ -156,6 +156,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Book Chapter10\LINQTests.cs" />
     <Compile Include="Book Chapter3\AbstractClasses.cs" />
     <Compile Include="Book Chapter3\BookStructExercise.cs" />
     <Compile Include="Book Chapter3\DataStructures.cs" />

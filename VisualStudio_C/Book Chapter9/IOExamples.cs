@@ -20,7 +20,7 @@ namespace VisualStudio_C.Book_Chapter9 {
     }
 
     class IOExamples {
-        static void Main() {
+        static void MainIOExamples() {
             //FileInfo file = new FileInfo(@"C:\Users\Thiago\Desktop\test.txt");
             //Console.WriteLine(file.Name);
             //Console.WriteLine(file.DirectoryName);
