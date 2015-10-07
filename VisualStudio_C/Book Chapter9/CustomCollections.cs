@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace VisualStudio_C.Book_Chapter9 {
     class CustomCollections {
-        static void Main() {
+        static void MainCustomCollections() {
             PersonCollection persons = new PersonCollection();
             persons.Add(new Person() {
             PersonId = 1,
