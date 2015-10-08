@@ -22,7 +22,7 @@ namespace VisualStudio_C.Book_Chapter10 {
 
     class LINQTests {
 
-        static void Main(){
+        static void MainLINQTests(){
             //int[] myArray = new int[10] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
             //var evenNumbers = from i in myArray
             //                  where i % 2 == 0
