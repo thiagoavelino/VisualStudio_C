@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace VisualStudio_C.Book_Chapter10 {
     class LINQMethodsBased {
-        static void Main() {
+        static void MainLINQMethods() {
             //int[] myArray = new int[10] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
             //var evenNumbers = myArray.Where(i => i % 2 == 0).OrderByDescending(i => i);
             //foreach(var item in evenNumbers) {
