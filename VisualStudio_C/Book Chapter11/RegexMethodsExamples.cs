@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace VisualStudio_C.Book_Chapter11 {
     class RegexMethodsExamples {
-        static void Main() {
+        static void MainRegexMethods() {
             var stringtest = "test test thiago testttttt";
             var stringempty = "";
             string stringnull = null;
