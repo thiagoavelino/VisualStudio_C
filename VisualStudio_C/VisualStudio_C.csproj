@@ -184,6 +184,7 @@
     <Compile Include="Book Chapter11\DebuggingTechniques.cs" />
     <Compile Include="Book Chapter11\DebugTrace.cs" />
     <Compile Include="Book Chapter11\RegexMethodsExamples.cs" />
+    <Compile Include="Book Chapter12\Encryption.cs" />
     <Compile Include="Book Chapter3\AbstractClasses.cs" />
     <Compile Include="Book Chapter3\BookStructExercise.cs" />
     <Compile Include="Book Chapter3\DataStructures.cs" />

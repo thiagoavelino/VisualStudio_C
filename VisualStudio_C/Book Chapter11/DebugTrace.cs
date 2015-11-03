@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace VisualStudio_C.Book_Chapter11 {
     class DebugTrace {
-        public static void Main() {
+        public static void MainDebugTrace() {
             Debug.WriteIf(true, "Will show on the output window.");
             Debug.WriteIf(false, "Will not show on the output window.");
             
