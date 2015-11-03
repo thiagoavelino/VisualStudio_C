@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace VisualStudio_C.Book_Chapter11 {
     class DebuggingTechniques {
-        public static void Main() {
+        public static void MainDebuggingTechniques() {
             Console.WriteLine("Debugging");
 
 #if DEBUG1
