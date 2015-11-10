@@ -25,7 +25,7 @@ namespace VisualStudio_C.Book_Chapter12 {
             ICryptoTransform encryptor = cryptoalgorithm.CreateEncryptor();
             byte[] cypherData = encryptor.TransformFinalBlock(plainData, 0, plainData.Length);
             key = cryptoalgorithm.Key;
-            IV = cryptoalgorithm.Key;
+            IV = cryptoalgorithm.IV;
             return cypherData;
         }
 
