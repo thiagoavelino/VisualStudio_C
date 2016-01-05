@@ -33,6 +33,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="Autofac">
       <HintPath>..\packages\Autofac.3.5.2\lib\net40\Autofac.dll</HintPath>
@@ -184,7 +187,9 @@
     <Compile Include="Book Chapter11\DebuggingTechniques.cs" />
     <Compile Include="Book Chapter11\DebugTrace.cs" />
     <Compile Include="Book Chapter11\RegexMethodsExamples.cs" />
+    <Compile Include="Book Chapter12\Certification.cs" />
     <Compile Include="Book Chapter12\Encryption.cs" />
+    <Compile Include="Book Chapter12\Hashing.cs" />
     <Compile Include="Book Chapter3\AbstractClasses.cs" />
     <Compile Include="Book Chapter3\BookStructExercise.cs" />
     <Compile Include="Book Chapter3\DataStructures.cs" />

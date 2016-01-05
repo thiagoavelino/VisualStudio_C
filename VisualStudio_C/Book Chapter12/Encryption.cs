@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Security.Cryptography;
+using System.Security.Permissions;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -10,7 +11,7 @@ namespace VisualStudio_C.Book_Chapter12 {
         public static byte[] key;
         public static byte[] IV;
 
-        public static void Main() {
+        public static void MainEncryption() {
             //var encryptkey = "031485A7F4E44699";
             //var IV = "aqe1234fwdet234";
             var data = "Esta mensagem foi encriptada!";
