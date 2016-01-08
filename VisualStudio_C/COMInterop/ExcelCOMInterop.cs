@@ -8,7 +8,7 @@ using Microsoft.Office.Core;
 
 namespace VisualStudio_C.COMInterop {
     class ExcelCOMInterop {
-        public static void Main() {
+        public static void MainInerop() {
             _Application excelApp = new Application();
             excelApp.Visible = true;
         }
