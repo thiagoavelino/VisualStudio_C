@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace VisualStudio_C.EntityFramework {
     class Program {
-        public static void Main() {
+        public static void MainEntityFramework() {
             GetContacts();
             Console.ReadKey();
         }

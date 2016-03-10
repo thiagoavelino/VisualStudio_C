@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace VisualStudio_C.Book_Chapter12 {
     class Certification {
-        static void MainCertification() {
+        static void MainCertifications() {
             X509Store store = new X509Store(StoreName.Root, StoreLocation.LocalMachine);
             store.Open(OpenFlags.ReadOnly);
             Console.WriteLine("Friendly Name\t\t\t\t\t Expiration date");
